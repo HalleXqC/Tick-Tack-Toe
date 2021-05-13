@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background:  url('https://cdn.statically.io/img/d2r55xnwy6nx47.cloudfront.net/uploads/2018/08/TidalDisruptions_A_1440x810.gif') center / cover no-repeat;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+#wrapper{
+    width: 501px;
+    height: 455px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 165px;
+    margin: 1px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.699);
+    box-sizing: border-box;
+    font-size: 100px;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* media */
+
+@media screen and (max-width: 540px){
+    .box{
+        width: 100px;
+        margin: 1px;
+        height: 100px;
+        border: 1px solid #000;
+        background-color: rgba(0, 0, 0, 0.699);
+        box-sizing: border-box;
+        font-size: 100px;
+        color: #fff;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #wrapper{
+        width: 307px;
+        padding-top: 1px;
+        height: 315px;
+        background-color: rgba(255, 255, 255, 0.247);
+        border: 1px solid;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
