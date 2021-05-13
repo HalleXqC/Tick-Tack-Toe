@@ -31,10 +31,10 @@ function check(){
     ]
     for(let i = 0; i < combination.length; i++){
         if(boxes[combination[i][0]].innerHTML === 'x' && boxes[combination[i][1]].innerHTML === 'x' && boxes[combination[i][2]].innerHTML === 'x'){
-            alert('" X " win')
+            alert('Крестики победили')
             window.location.reload();
         }else if(boxes[combination[i][0]].innerHTML === 'o' && boxes[combination[i][1]].innerHTML === 'o' && boxes[combination[i][2]].innerHTML === 'o'){
-            alert(' " O " win')
+            alert('Нолики победили')
             window.location.reload();
         }
     }
